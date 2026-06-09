@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://Serponado.com/schema/relation-predicates.json",
+  "title": "Serponado Relation Predicates",
+  "description": "All valid relation predicate values for Serponado entity relationships",
+  "predicates": [
+    {
+      "predicate": "IS_TYPE_OF",
+      "direction": "child → parent",
+      "description": "This entity is a subtype or instance of the target entity",
+      "example": "paragraph-featured-snippet IS_TYPE_OF featured-snippet"
+    },
+    {
+      "predicate": "HAS_SUBTYPE",
+      "direction": "parent → child",
+      "description": "The target entity is a named subtype of this entity",
+      "example": "featured-snippet HAS_SUBTYPE paragraph-featured-snippet"
+    },
+    {
+      "predicate": "PART_OF",
+      "direction": "component → whole",
+      "description": "This entity is a component or part of the target entity",
+      "example": "lcp PART_OF core-web-vitals"
+    },
+    {
+      "predicate": "CONTAINS",
+      "direction": "whole → component",
+      "description": "This entity includes the target as a component",
+      "example": "core-web-vitals CONTAINS lcp"
+    },
+    {
+      "predicate": "TRIGGERS",
+      "direction": "cause → effect",
+      "description": "This entity causes or activates the target",
+      "example": "informational-intent TRIGGERS featured-snippet"
+    },
+    {
+      "predicate": "TRIGGERED_BY",
+      "direction": "effect → cause",
+      "description": "This entity is caused or activated by the target",
+      "example": "featured-snippet TRIGGERED_BY informational-intent"
+    },
+    {
+      "predicate": "COMPETES_WITH",
+      "direction": "symmetric",
+      "description": "This entity and the target compete for the same SERP real estate or user attention",
+      "example": "featured-snippet COMPETES_WITH knowledge-panel"
+    },
+    {
+      "predicate": "REQUIRES",
+      "direction": "dependent → dependency",
+      "description": "This entity requires the target to function or appear",
+      "example": "review-snippets REQUIRES structured-data"
+    },
+    {
+      "predicate": "POWERS",
+      "direction": "engine → output",
+      "description": "This entity powers or enables the target",
+      "example": "gemini-search POWERS ai-overview"
+    },
+    {
+      "predicate": "POWERED_BY",
+      "direction": "output → engine",
+      "description": "This entity is powered or enabled by the target",
+      "example": "ai-overview POWERED_BY gemini-search"
+    },
+    {
+      "predicate": "REPLACED_BY",
+      "direction": "old → new",
+      "description": "This entity was replaced by the target",
+      "example": "fid REPLACED_BY inp"
+    },
+    {
+      "predicate": "REPLACES",
+      "direction": "new → old",
+      "description": "This entity replaced the target",
+      "example": "inp REPLACES fid"
+    },
+    {
+      "predicate": "MEASURES",
+      "direction": "metric → subject",
+      "description": "This metric quantifies or evaluates the target entity",
+      "example": "ctr MEASURES organic-result"
+    },
+    {
+      "predicate": "MEASURED_BY",
+      "direction": "subject → metric",
+      "description": "This entity is quantified or evaluated by the target metric",
+      "example": "organic-result MEASURED_BY ctr"
+    },
+    {
+      "predicate": "OPTIMIZED_BY",
+      "direction": "feature → practice",
+      "description": "This entity's presence or performance is improved by the target practice",
+      "example": "featured-snippet OPTIMIZED_BY content-relevance"
+    },
+    {
+      "predicate": "AFFECTS",
+      "direction": "signal → outcome",
+      "description": "This entity influences the target in the ranking or SERP system",
+      "example": "core-web-vitals AFFECTS page-experience-ranking"
+    },
+    {
+      "predicate": "INTRODUCED_BY",
+      "direction": "feature → update",
+      "description": "This entity was introduced or enabled by the target algorithm or update",
+      "example": "ai-overview INTRODUCED_BY google-io-2024"
+    },
+    {
+      "predicate": "DEPRECATED_BY",
+      "direction": "old → update",
+      "description": "This entity was made obsolete by the target update or feature",
+      "example": "faq-results DEPRECATED_BY august-2023-update"
+    },
+    {
+      "predicate": "RELATED_TO",
+      "direction": "symmetric",
+      "description": "General semantic relationship when no more specific predicate applies",
+      "example": "rankbrain RELATED_TO query-understanding"
+    },
+    {
+      "predicate": "ANALOGOUS_TO",
+      "direction": "symmetric",
+      "description": "Functionally similar to the target but in a different context or system",
+      "example": "bing-knowledge-widget ANALOGOUS_TO knowledge-panel"
+    }
+  ]
+}

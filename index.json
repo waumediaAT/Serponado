@@ -1,0 +1,410 @@
+{
+  "$schema": "https://Serponado.com/schema/index.schema.json",
+  "meta": {
+    "name": "Serponado Entity Index",
+    "version": "1.0.0",
+    "lastUpdated": "2026-06-09",
+    "totalEntities": 62,
+    "description": "Machine-readable master index of all Serponado entities"
+  },
+  "entities": [
+    {
+      "entityId": "featured-snippet",
+      "name": "Featured Snippet",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/featured-snippet.md"
+    },
+    {
+      "entityId": "knowledge-panel",
+      "name": "Knowledge Panel",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/knowledge-panel.md"
+    },
+    {
+      "entityId": "knowledge-card",
+      "name": "Knowledge Card",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/knowledge-card.md"
+    },
+    {
+      "entityId": "people-also-ask",
+      "name": "People Also Ask",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/people-also-ask.md"
+    },
+    {
+      "entityId": "image-pack",
+      "name": "Image Pack",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/image-pack.md"
+    },
+    {
+      "entityId": "video-carousel",
+      "name": "Video Carousel",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/video-carousel.md"
+    },
+    {
+      "entityId": "news-box",
+      "name": "News Box / Top Stories",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/news-box.md"
+    },
+    {
+      "entityId": "local-pack",
+      "name": "Local Pack",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/local-pack.md"
+    },
+    {
+      "entityId": "sitelinks",
+      "name": "Sitelinks",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/sitelinks.md"
+    },
+    {
+      "entityId": "related-searches",
+      "name": "Related Searches",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/related-searches.md"
+    },
+    {
+      "entityId": "people-also-search-for",
+      "name": "People Also Search For",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/people-also-search-for.md"
+    },
+    {
+      "entityId": "perspectives",
+      "name": "Perspectives / Forum Results",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/perspectives.md"
+    },
+    {
+      "entityId": "shopping-results",
+      "name": "Shopping Results (Merchant Listings)",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/shopping-results.md"
+    },
+    {
+      "entityId": "review-snippets",
+      "name": "Review Snippets",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/review-snippets.md"
+    },
+    {
+      "entityId": "recipe-cards",
+      "name": "Recipe Cards",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/recipe-cards.md"
+    },
+    {
+      "entityId": "job-listings",
+      "name": "Job Listings (Google for Jobs)",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/job-listings.md"
+    },
+    {
+      "entityId": "ai-overview",
+      "name": "AI Overview",
+      "type": "SERP_Feature",
+      "namespace": "serp-features",
+      "status": "active",
+      "file": "entities/serp-features/ai-overview.md"
+    },
+    {
+      "entityId": "text-ads",
+      "name": "Text Ads (Responsive Search Ads)",
+      "type": "Paid_Feature",
+      "namespace": "paid-features",
+      "status": "active",
+      "file": "entities/paid-features/text-ads.md"
+    },
+    {
+      "entityId": "e-e-a-t",
+      "name": "E-E-A-T",
+      "type": "Ranking_Factor",
+      "namespace": "ranking-factors",
+      "status": "active",
+      "file": "entities/ranking-factors/e-e-a-t.md"
+    },
+    {
+      "entityId": "core-web-vitals",
+      "name": "Core Web Vitals",
+      "type": "Ranking_Factor",
+      "namespace": "ranking-factors",
+      "status": "active",
+      "file": "entities/ranking-factors/core-web-vitals.md"
+    },
+    {
+      "entityId": "backlinks",
+      "name": "Backlinks",
+      "type": "Ranking_Factor",
+      "namespace": "ranking-factors",
+      "status": "active",
+      "file": "entities/ranking-factors/backlinks.md"
+    },
+    {
+      "entityId": "topical-authority",
+      "name": "Topical Authority",
+      "type": "Ranking_Factor",
+      "namespace": "ranking-factors",
+      "status": "active",
+      "file": "entities/ranking-factors/topical-authority.md"
+    },
+    {
+      "entityId": "rankbrain",
+      "name": "RankBrain",
+      "type": "Algorithm",
+      "namespace": "algorithms",
+      "status": "active",
+      "file": "entities/algorithms/rankbrain.md"
+    },
+    {
+      "entityId": "bert",
+      "name": "BERT",
+      "type": "Algorithm",
+      "namespace": "algorithms",
+      "status": "active",
+      "file": "entities/algorithms/bert.md"
+    },
+    {
+      "entityId": "helpful-content",
+      "name": "Helpful Content System",
+      "type": "Algorithm",
+      "namespace": "algorithms",
+      "status": "active",
+      "file": "entities/algorithms/helpful-content.md"
+    },
+    {
+      "entityId": "panda",
+      "name": "Google Panda",
+      "type": "Algorithm_Update",
+      "namespace": "algorithms",
+      "status": "deprecated",
+      "file": "entities/algorithms/panda.md"
+    },
+    {
+      "entityId": "penguin",
+      "name": "Google Penguin",
+      "type": "Algorithm_Update",
+      "namespace": "algorithms",
+      "status": "deprecated",
+      "file": "entities/algorithms/penguin.md"
+    },
+    {
+      "entityId": "informational",
+      "name": "Informational Intent",
+      "type": "Search_Intent",
+      "namespace": "intent",
+      "status": "active",
+      "file": "entities/intent/informational.md"
+    },
+    {
+      "entityId": "navigational",
+      "name": "Navigational Intent",
+      "type": "Search_Intent",
+      "namespace": "intent",
+      "status": "active",
+      "file": "entities/intent/navigational.md"
+    },
+    {
+      "entityId": "transactional",
+      "name": "Transactional Intent",
+      "type": "Search_Intent",
+      "namespace": "intent",
+      "status": "active",
+      "file": "entities/intent/transactional.md"
+    },
+    {
+      "entityId": "commercial-investigation",
+      "name": "Commercial Investigation Intent",
+      "type": "Search_Intent",
+      "namespace": "intent",
+      "status": "active",
+      "file": "entities/intent/commercial-investigation.md"
+    },
+    {
+      "entityId": "local",
+      "name": "Local Intent",
+      "type": "Search_Intent",
+      "namespace": "intent",
+      "status": "active",
+      "file": "entities/intent/local.md"
+    },
+    {
+      "entityId": "ctr",
+      "name": "Click-Through Rate",
+      "type": "Metric",
+      "namespace": "metrics",
+      "status": "active",
+      "file": "entities/metrics/ctr.md"
+    },
+    {
+      "entityId": "impressions",
+      "name": "Impressions",
+      "type": "Metric",
+      "namespace": "metrics",
+      "status": "active",
+      "file": "entities/metrics/impressions.md"
+    },
+    {
+      "entityId": "visibility-index",
+      "name": "Visibility Index",
+      "type": "Metric",
+      "namespace": "metrics",
+      "status": "active",
+      "file": "entities/metrics/visibility-index.md"
+    },
+    {
+      "entityId": "structured-data",
+      "name": "Structured Data (JSON-LD)",
+      "type": "Technical_Attribute",
+      "namespace": "technical",
+      "status": "active",
+      "file": "entities/technical/structured-data.md"
+    },
+    {
+      "entityId": "canonical",
+      "name": "Canonical Tag",
+      "type": "Technical_Attribute",
+      "namespace": "technical",
+      "status": "active",
+      "file": "entities/technical/canonical.md"
+    },
+    {
+      "entityId": "robots-txt",
+      "name": "robots.txt",
+      "type": "Technical_Attribute",
+      "namespace": "technical",
+      "status": "active",
+      "file": "entities/technical/robots-txt.md"
+    },
+    {
+      "entityId": "geo",
+      "name": "Generative Engine Optimization",
+      "type": "AI_Search_Feature",
+      "namespace": "ai-search",
+      "status": "emerging",
+      "file": "entities/ai-search/geo.md"
+    },
+    {
+      "entityId": "ai-overview-entity",
+      "name": "AI Overview (AI Search Entity)",
+      "type": "AI_Search_Feature",
+      "namespace": "ai-search",
+      "status": "active",
+      "file": "entities/ai-search/ai-overview.md"
+    },
+    {
+      "entityId": "knowledge-graph",
+      "name": "Google Knowledge Graph",
+      "type": "Entity_Type",
+      "namespace": "knowledge-entities",
+      "status": "active",
+      "file": "entities/knowledge-entities/knowledge-graph.md"
+    },
+    {
+      "entityId": "position-zero",
+      "name": "Position Zero",
+      "type": "Layout_Element",
+      "namespace": "layout",
+      "status": "active",
+      "file": "entities/layout/position-zero.md"
+    }
+  ],
+  "namespaces": {
+    "serp-features": {
+      "description": "Features that appear on the SERP",
+      "count": 17
+    },
+    "paid-features": {
+      "description": "Advertising and paid SERP placements",
+      "count": 1
+    },
+    "ranking-factors": {
+      "description": "Signals that influence organic ranking position",
+      "count": 4
+    },
+    "algorithms": {
+      "description": "Google algorithm systems and named updates",
+      "count": 5
+    },
+    "intent": {
+      "description": "Search intent types and query classifications",
+      "count": 5
+    },
+    "metrics": {
+      "description": "Measurable SEO performance and authority metrics",
+      "count": 3
+    },
+    "technical": {
+      "description": "Technical SEO attributes and configurations",
+      "count": 3
+    },
+    "ai-search": {
+      "description": "AI-augmented search features and optimization disciplines",
+      "count": 2
+    },
+    "layout": {
+      "description": "SERP layout positions and anatomical elements",
+      "count": 1
+    },
+    "knowledge-entities": {
+      "description": "Entity types and knowledge graph concepts",
+      "count": 1
+    }
+  },
+  "entityTypes": {
+    "SERP_Feature": 17,
+    "Paid_Feature": 1,
+    "Ranking_Factor": 4,
+    "Algorithm": 3,
+    "Algorithm_Update": 2,
+    "Search_Intent": 5,
+    "Metric": 3,
+    "Technical_Attribute": 3,
+    "AI_Search_Feature": 2,
+    "Layout_Element": 1,
+    "Entity_Type": 1
+  },
+  "statusCounts": {
+    "active": 36,
+    "deprecated": 2,
+    "emerging": 2,
+    "experimental": 0,
+    "historical": 0
+  }
+}
