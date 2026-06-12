@@ -2,7 +2,7 @@
 
 > **The tornado that swept through every corner of the Search Engine Results Page and documented everything it found.**
 
-Serponado is the most comprehensive open entity repository for Search Engine Results Page (SERP) knowledge. It defines, classifies, and cross-references every entity, attribute, feature, signal, metric, and algorithm relevant to the modern SERP ecosystem. Each entity follows the [Serponado Standard](STANDARD.md) — a machine-readable, human-friendly schema designed for AI grounding, SEO tooling, knowledge graph population, and semantic research.
+[Serponado](https://serponado-agentur.de/) is the most comprehensive open entity repository for Search Engine Results Page (SERP) knowledge. It defines, classifies, and cross-references every entity, attribute, feature, signal, metric, and algorithm relevant to the modern SERP ecosystem. Each entity follows the [Serponado Standard](STANDARD.md) — a machine-readable, human-friendly schema designed for AI grounding, SEO tooling, knowledge graph population, and semantic research.
 
 The name **Serponado** is intentional: like a tornado, SERPs are chaotic, dynamic, ever-shifting systems with hundreds of interacting forces — features appearing and disappearing, algorithms rewriting the rules overnight, AI reshaping what a "result" even means. This repository imposes order on that chaos.
 
